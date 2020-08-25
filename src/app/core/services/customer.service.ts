@@ -7,7 +7,7 @@ import { map } from 'rxjs/operators'
 })
 export class CustomerService {
 
-  baseUrl = 'https://api.deweixiang.com/';
+  baseUrl = 'https://api.deweixiang.com/account';
   constructor(
     private http: HttpClient
   ) { }
